@@ -5,7 +5,7 @@ Requirements:
 - pyzmq (tested on version 20.0.2)
 
 ## DAQ-push-pull.py:
-- Simple PUSH-PULL network with no specialised redundancy beyoing default offerings from ZeroMQ
+- Simple PUSH-PULL network with no specialised redundancy beyond default offerings from ZeroMQ
 - Scalable amount of detectors feed into a load balancer, which distributes the work to scalable amount of workers
 - Workers perform event building and parse "hits" to a sink collector.
 
