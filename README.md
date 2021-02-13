@@ -6,6 +6,7 @@ Requirements:
 
 ## DAQ-push-pull.py:
 - Simple PUSH-PULL network with no specialised redundancy beyoing default offerings from ZeroMQ
-- Scalable amount of detectors feed into a load balancer, which distributes the work to scalalble amount of workers workers performing event building and parsing "hits" to a sink collector.
+- Scalable amount of detectors feed into a load balancer, which distributes the work to scalable amount of workers
+- Workers perform event building and parse "hits" to a sink collector.
 
 ![PUSH-PULL schematic](graphics/DAQ-push-pull.jpg)
