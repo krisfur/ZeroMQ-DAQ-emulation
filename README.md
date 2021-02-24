@@ -2,7 +2,7 @@
 Emulating a primitive multithreaded DAQ setup with fake detectors and event builders.
 
 Requirements:
-- pyzmq (tested on version 20.0.2)
+- pyzmq (tested on version 18.1.1)
 
 ## DAQ-push-pull.py:
 - Simple PUSH-PULL network with no specialised redundancy beyond default offerings from ZeroMQ
