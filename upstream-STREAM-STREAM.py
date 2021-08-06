@@ -1,7 +1,7 @@
 """
-DAQ-like showcase of ZeroMQ
+Upstream DAQ-like showcase of ZeroMQ
 
-Detectors produce data, load balancer distributes it to workers who do event reconstruction, data is then collected by the sink.
+Detectors produce data and send it on raw TCP STREAM sockets, data is then collected by the sink.
 
 Author: Krzysztof Furman <k(dot)furman(at)qmul(dot)ac(dot)uk>
 """
